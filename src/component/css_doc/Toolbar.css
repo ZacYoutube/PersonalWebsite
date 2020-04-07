@@ -1,0 +1,31 @@
+.toolbar{
+}
+.toolbar_nav{
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+.toolbar_selection a:hover{
+    color:grey;
+}
+.toolbar_selection ul{
+    list-style: none !important;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.toolbar_selection li{
+    margin: 0 1rem;
+    color:white;
+}
+.toolbar_selection span{
+    font-weight: bold;
+    font-size: large;
+}
+.toolbar_selection a{
+    text-decoration: none;
+    color: white;
+}
+.space{
+    flex: 1;
+}

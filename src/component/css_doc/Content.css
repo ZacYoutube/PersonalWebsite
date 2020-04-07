@@ -1,0 +1,45 @@
+.contents{
+    margin: 150px;
+    border:solid black 1px;
+    background-color: white;
+}
+.contents h1{
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3rem;
+    font-weight: bolder;
+}
+.contents p{
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.contents a{
+    font-weight: bold;
+    animation: animate 6s linear infinite;
+    position: relative;
+    display: inline-block;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.contents a:hover{
+    color:grey;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0px);
+    }
+    10%{
+        transform: translateY(-20px);
+    }
+}
+.contents img{
+    width: 400px;
+    float: right;
+}
+.word{
+    margin-left: 70px;
+}
