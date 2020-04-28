@@ -1,45 +1,52 @@
 import React, { Component } from 'react';
 import './css_doc/Content.css';
-import {Row,Col} from 'react-bootstrap';
+import {Row,Col,Button} from 'react-bootstrap';
 import {Link,BrowserRouter} from 'react-router-dom';
 import Project from './Project';
 import {Animated} from "react-animated-css";
+import Container from 'react-bootstrap/Container'
 
 export default class Content extends Component {
   render() {
     return (
         <div className = "contents">
-            
-            <Row>
-                <Col className = 'word'>
-                    <div>
-                        <h1>Hello, I'm Zac</h1>
-                    </div>
-                    <br/>
-                    <div>
-                        <p>A newly graduated computer programmer who is</p>
-                        <p>facinated by the web development.</p>
-                        <p>Currently based in Los Angeles, California, </p>
-                        <p>looking to find a job in a modern tech company</p>
-                    </div>
-                    <br/>
-                    <div>
-                        <BrowserRouter>
-                            <Link>
-                                Check out my work!
-                            </Link>
-                        </BrowserRouter>
-                    </div>
-                </Col>
-                <Col>
-                    <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} animationInDelay={500}>
-                        <div>
-                            <img src={require('../asset/selfie.jpeg')} width = '300px'></img>
-                        </div>
-                    </Animated>
-                </Col>
-            </Row>
+                    <div className = 'content-header'>
+                        <h1>Hi, I'm Zac You</h1>
 
+                    </div>
+                    <div className = 'content-description'>
+                        <h4>A programmer who enjoys coding!</h4>
+                    </div>
+                    <br/>
+                    <Container className = 'content-tool'>
+                    <Row xs = {1} md = {2} style = {{width:'300px', margin: '0 auto'}}>
+                        <Col>
+                            <div>
+                            <img src = {require('../asset/github-color.png')} width = '30' height='30'/>
+                            </div>
+                            <div>
+                            <a href='https://github.com/ZacYoutube' target="_blank">Github</a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div>
+                            <img src = {require('../asset/linkedin.png')} width = '30' height='30'/>
+                            </div>
+                            <div>
+                            <a href='https://www.linkedin.com/feed/' target="_blank">LinkedIn</a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div>
+                            <img src = {require('../asset/secured-letter.png')} width = '30' height='30'/>
+                            </div>
+                            <div>
+                            <a href='mailto:zacyou151@yahoo.com?Subject=NewMail' target='_top'>Email</a>
+                            </div>
+                        </Col>
+                    </Row>
+                    </Container>
+               
             
         </div>
             
