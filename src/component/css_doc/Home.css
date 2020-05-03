@@ -3,6 +3,10 @@
     /* text-align: center; */
     /* overflow-x: hidden;    */
     overflow: hidden;
+   
+}
+.home-contain{
+  background-color: black;
 }
 html {
   scroll-behavior: smooth;
@@ -139,6 +143,8 @@ a:hover{
     transform: translateY(-15px);
   }
 }
+
+
 .resume-1{
   box-shadow: 0 0 10px #088A68;
 }
@@ -155,6 +161,11 @@ a:hover{
   height: 70;
   margin-top: -15%;
   transform: rotate(-70deg);
+}
+.download-button{
+  text-align: center;
+  margin-top: 3%;
+  opacity: 0.9;
 }
 @media screen and (max-width:1000px){
   .resume-1{
