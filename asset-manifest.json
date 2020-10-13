@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.64ddb37f.chunk.css",
+    "main.js": "/PersonalWebsite/static/js/main.95999bc5.chunk.js",
+    "main.js.map": "/PersonalWebsite/static/js/main.95999bc5.chunk.js.map",
+    "runtime-main.js": "/PersonalWebsite/static/js/runtime-main.2e376280.js",
+    "runtime-main.js.map": "/PersonalWebsite/static/js/runtime-main.2e376280.js.map",
+    "static/js/2.1afe4793.chunk.js": "/PersonalWebsite/static/js/2.1afe4793.chunk.js",
+    "static/js/2.1afe4793.chunk.js.map": "/PersonalWebsite/static/js/2.1afe4793.chunk.js.map",
+    "index.html": "/PersonalWebsite/index.html",
+    "precache-manifest.9a03943952104cb14baf8fa3614b4ec1.js": "/PersonalWebsite/precache-manifest.9a03943952104cb14baf8fa3614b4ec1.js",
+    "service-worker.js": "/PersonalWebsite/service-worker.js",
+    "static/css/main.64ddb37f.chunk.css.map": "/PersonalWebsite/static/css/main.64ddb37f.chunk.css.map",
+    "static/js/2.1afe4793.chunk.js.LICENSE.txt": "/PersonalWebsite/static/js/2.1afe4793.chunk.js.LICENSE.txt",
+    "static/media/Resume Zac You-1.png": "/PersonalWebsite/static/media/Resume Zac You-1.8d0dd97f.png",
+    "static/media/Resume Zac You.pdf": "/PersonalWebsite/static/media/Resume Zac You.534604ea.pdf",
+    "static/media/Zlogos.png": "/PersonalWebsite/static/media/Zlogos.8eaa8b3c.png",
+    "static/media/about-pic.jpeg": "/PersonalWebsite/static/media/about-pic.d1876c09.jpeg",
+    "static/media/dashboard-project.png": "/PersonalWebsite/static/media/dashboard-project.b9ac7523.png",
+    "static/media/leaf-removebg-preview.png": "/PersonalWebsite/static/media/leaf-removebg-preview.634bd7b5.png",
+    "static/media/leaf1-removebg-preview.png": "/PersonalWebsite/static/media/leaf1-removebg-preview.a4df2284.png",
+    "static/media/logo.svg": "/PersonalWebsite/static/media/logo.5d5d9eef.svg",
+    "static/media/Home.css": "/PersonalWebsite/static/media/pexels-photo-459225.111ef3e2.jpeg",
+    "static/media/Project.css": "/PersonalWebsite/static/media/projectss.cfeca3fe.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e376280.js",
+    "static/js/2.1afe4793.chunk.js",
+    "static/css/main.64ddb37f.chunk.css",
+    "static/js/main.95999bc5.chunk.js"
+  ]
+}
