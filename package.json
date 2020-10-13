@@ -1,0 +1,19 @@
+{
+  "name": "zacwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/icons": "^4.9.1",
+    "create-react-app": "^3.4.1",
+    "react-bootstrap": "^1.0.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "reactstrap": "^8.4.1"
+  }
+}
