@@ -23,7 +23,7 @@ export default class Project extends Component {
                     on the system health bar.
                   </span>
                 </CardBody>
-                <Button href = 'http://ec2-54-219-129-59.us-west-1.compute.amazonaws.com:3000/login' className = 'view-button' style = {{backgroundColor:'#088A68',border:'none'}}>View</Button>
+                <Button href = 'https://csns.calstatela.edu/department/cs/project/view?id=7250581' className = 'view-button' style = {{backgroundColor:'#088A68',border:'none'}}>View</Button>
               </Card>
           </div>
           <div className='second-project'>
