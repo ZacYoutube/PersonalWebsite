@@ -19,6 +19,7 @@ function MainApp() {
         
         <Switch className="switch-container">
           <Suspense fallback={<FallbackSpinner />}>
+            <Route exact path="/" component={Home} />
             <Route exact path="/PersonalWebsite" component={Home} />
             {data
               && data.map((route) => {

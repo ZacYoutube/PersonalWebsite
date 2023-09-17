@@ -36,7 +36,8 @@ function Education() {
 
   return (
     <>
-      <div />
+      <br />
+      <br />
       {data ? (
         <Fade>
           <div style={{ width }} className="section-content-container">
