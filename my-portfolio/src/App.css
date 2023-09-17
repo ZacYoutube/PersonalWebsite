@@ -128,6 +128,9 @@ section.timeline-card-content div.card-description > p {
 }
 
 @media (max-width: 768px) {
+  .about-text {
+    padding-top: 50px;
+  }
   .about-pic {
     width: 200px;
     height: 200px;

@@ -9,6 +9,6 @@ export const social = [
         },
         {
             "network" : "email",
-            "href": "zacyou151@yahoo.com"
+            "href": "mailto:zacyou151@yahoo.com"
         }
 ];

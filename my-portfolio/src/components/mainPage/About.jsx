@@ -47,7 +47,7 @@ function About() {
             ? (
               <Fade>
                 <Row>
-                  <Col style={styles.introTextContainer}>
+                  <Col style={styles.introTextContainer} className="about-text">
                     {parseIntro(data.about)}
                   </Col>
                   <Col style={styles.introImageContainer}>

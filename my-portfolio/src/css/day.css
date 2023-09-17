@@ -273,3 +273,19 @@
     }
 }
 
+
+@media (max-width: 768px) {
+
+    .sun-rays {
+        top: 22em;
+    }
+
+    .cloud.one {
+        top: 24em;
+    }
+
+    .cloud.two {
+        top: 50em;
+    }
+}
+
