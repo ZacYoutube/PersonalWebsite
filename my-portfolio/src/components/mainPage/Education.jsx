@@ -16,6 +16,7 @@ function Education() {
   const [data, setData] = useState(null);
   const [width, setWidth] = useState('50vw');
   const [mode, setMode] = useState('VERTICAL_ALTERNATING');
+  const [mediaHeight, setMediaHeight] = useState(130);
 
   useEffect(() => {
     setData(setEd(img1, img2, img3));
@@ -26,10 +27,12 @@ function Education() {
 
     if (window?.innerWidth < 576) {
       setWidth('90vw');
+      setMediaHeight(90);
     } else if (window?.innerWidth >= 576 && window?.innerWidth < 768) {
       setWidth('90vw');
     } else if (window?.innerWidth >= 768 && window?.innerWidth < 1024) {
       setWidth('75vw');
+      setMediaHeight(100);
     } else {
       setWidth('50vw');
     }
@@ -58,7 +61,7 @@ function Education() {
                   titleColorActive: 'white'
                 }}
                 mediaSettings={{ align: 'center', fit: 'contain' }}
-                mediaHeight={130}
+                mediaHeight={mediaHeight}
               >
                   <div className="chrono-icons">
                     {data.map((education) => (education.icon ? (
