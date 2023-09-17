@@ -9,6 +9,7 @@ import { setEd } from '../../profile/education';
 import img1 from '../../images/education/UCLA_LOGO.png';
 import img2 from '../../images/education/CSULA_LOGO.png';
 import img3 from '../../images/education/MARKKEPPEL.png';
+import '../../App.css';
 
 function Education() {
   const theme = useContext(ThemeContext);
@@ -40,7 +41,7 @@ function Education() {
       <br />
       {data ? (
         <Fade>
-          <div style={{ width }} className="section-content-container">
+          <div style={{ width: width }} className="section-content-container">
             <Container>
               <Chrono
                 allowDynamicUpdate
@@ -56,15 +57,17 @@ function Education() {
                   titleColor: theme.chronoTheme.titleColor == 'black' ? 'white' : 'black',
                   titleColorActive: 'white'
                 }}
+                mediaSettings={{ align: 'center', fit: 'contain' }}
+                mediaHeight={130}
               >
-                <div className="chrono-icons">
-                  {data.map((education) => (education.icon ? (
-                    <img
-                      key={education.icon.src}
-                      src={education.icon.src}
-                      alt={education.icon.alt}
-                    />
-                  ) : null))}
+                  <div className="chrono-icons">
+                    {data.map((education) => (education.icon ? (
+                      <img
+                        key={education.icon.src}
+                        src={education.icon.src}
+                        alt={education.icon.alt}
+                      />
+                    ) : null))}
                 </div>
               </Chrono>
             </Container>

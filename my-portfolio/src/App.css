@@ -163,3 +163,8 @@ section.timeline-card-content div.card-description > p {
   margin-bottom: 25px;
 }
 
+.chrono-icons {
+  display: flex;
+  justify-content: center;
+}
+
