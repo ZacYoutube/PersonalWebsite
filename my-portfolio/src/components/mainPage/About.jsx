@@ -58,6 +58,9 @@ function About() {
             )
             : <FallbackSpinner />}
         </Container>
+        <Container>
+              <h1>Hi</h1>
+        </Container>
       </div>
     </>
   );
